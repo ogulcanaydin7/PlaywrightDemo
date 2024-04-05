@@ -12,7 +12,7 @@ exports.LoginPage = class loginPage {
         await this.page.goto('https://the-internet.herokuapp.com/login');
     }
     
-    // ayrı ayrı enterusername, enterpassword, clickbutton aksiyonları yazmak yerini 3 hareketi tek aksiyonda yazdık
+    
     async login(username, password) {
         await this.username_textbox.fill(username)
         await this.password_textbox.fill(password)

@@ -1,7 +1,7 @@
 import { test } from '@playwright/test'
 
 test.skip('Test 1', async () => { 
-    //annotation dipnot demek keliem olarak
+    
 
 })
 test('not yet ready', async ({ page }) => {
